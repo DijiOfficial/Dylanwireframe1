@@ -1,0 +1,529 @@
+/* For Desktop */
+/* @font-face {
+    font-family: "LineIcons";
+    src: url("fonts/fonts/LineIcons.eot");
+    src: url("fonts/fonts/LineIcons.woff2") format("woff2"),
+    url("fonts/fonts/LineIcons.woff") format("woff"),
+    url("fonts/fonts/LineIcons.ttf") format("truetype"),
+    url("fonts/fonts/LineIcons.svg") format("svg");
+}
+@font-face {
+    font-family: "FontAwesome";
+    src: url("fonts/fontawesome-webfont.eot");
+    src: url("fonts/fontawesome-webfont.woff2") format("woff2"),
+    url("fonts/fontawesome-webfont.woff") format("woff"),
+    url("fonts/fontawesome-webfont.ttf") format("truetype"),
+    url("fonts/fontawesome-webfont.svg") format("svg");
+}
+*{
+    font-family: "LineIcons", "sans-serif";
+} */
+
+
+@media only screen and (min-width: 992px) {
+    body{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .main-container{
+        padding: 5vh;
+        background-color: white;
+    }
+    .flex-column{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex{
+        display: flex;
+    }
+    .firstBlock{
+        height: 100vh;
+        width: 100%;
+        background-image: url("images/banner-bg.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* font-family: "LineIcons"; */
+
+        min-height: 900px;
+    }
+    .logo{
+        background-image: url("images/logo.svg");
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 200px;
+        margin: 5vh 0;
+    }
+    .navbar{
+        justify-content: space-between;
+        padding: 0 15%;
+    }
+    .test{
+        color: white;
+        text-decoration: none;
+    }
+    .navbar-brand{
+        background-image: url("images/favicon.png");
+        background-repeat: no-repeat;
+        /* padding-left: 30px;
+        display: block;  */
+    }
+    .navbar-nav{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .nav-link{
+        display: inline-block;
+        font-size: 20px;
+        padding: 5vh 2.5vh;
+    }
+    .nav-link a{
+        color: white;
+        text-decoration: none;
+    }
+    .btn {
+        background: linear-gradient(to right,#FF8463,#FD6E97);
+        border: none;
+        border-radius: 10px;
+        padding: 12px 30px;
+        cursor: pointer;
+      }
+    .title{
+        color: white;
+        text-align: center;
+    }
+    .title h1{
+        font-size: 60px;
+        margin: 0;
+    }
+    .title p{
+        font-size: 20px;
+        padding-bottom: 5vh;
+    }
+    .notbold{
+        font-weight: 100;
+    }
+    .btn2{
+        background: linear-gradient(to right,#31C6C1,#119BD0);
+        border: none;
+        border-radius: 10px;
+        padding: 12px 30px;
+        cursor: pointer;
+        color: white;
+        text-decoration: none;
+    }
+    .headerhero{
+        background-image: url("images/header-hero.png");
+        background-repeat: no-repeat;
+        height: 40vh;
+        background-size: 100% 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+    .space-between{
+        justify-content: space-between;
+    }
+    .centered{
+        justify-content: center;
+    }
+
+
+    .secondBlock{
+        height: 20vh;
+        width: 100%;
+        
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .brand{
+        background-repeat: no-repeat;
+        height: 5vh;
+        width: 20vh;
+        min-height: 50px;
+        min-width: 195px;
+        margin: 0 2vh;
+        filter: opacity(50%);
+    }
+    .logo1{
+        background-image: url("images/brand-1.png");
+    }
+    .logo2{
+        background-image: url("images/brand-2.png");
+    }
+    .logo3{
+        background-image: url("images/brand-3.png");
+    }
+    .logo4{
+        background-image: url("images/brand-4.png");
+    }
+    .logo5{
+        background-image: url("images/brand-5.png");
+    }
+
+    .thirdBlock{
+        height: 100vh;
+        width: 100%;
+
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        /* max-height: 800px; */
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        /* flex-wrap: wrap; */
+        height: 45vh;
+        width: 100%;
+        min-height: 350px;
+        /* padding-top: 10vh; */
+    }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 250px;
+        text-align: center;
+        padding: 2vh 2vh;
+        min-width: 250px;
+        min-height: 300px;
+    }
+    .cardimg1{
+        background-image: url("images/services-shape-1.svg");
+        background-repeat: no-repeat;
+        height: 125px;
+        width: 125px;
+        background-position: center;
+        margin: auto;
+    }
+    .cardimg2{
+        background-image: url("images/services-shape-2.svg");
+        background-repeat: no-repeat;
+        height: 125px;
+        width: 125px;
+        background-position: center;
+        margin: auto;
+    }
+    .cardimg3{
+        background-image: url("images/services-shape-3.svg");
+        background-repeat: no-repeat;
+        height: 125px;
+        width: 125px;
+        background-position: center;
+        margin: auto;
+    }
+    .cardtxt p{
+        text-align: center;
+        font-size: 15px;
+        color: #6A6971;
+    }
+    .redLine{
+        width: 150px;
+        background-color:#FE7684;
+        min-height: 6px;
+    }
+    .text h1{
+        text-align: center;
+        font-size: 35px;
+        padding: 0 10%;
+    }
+
+
+
+
+    .fourthBlock{
+        background-image: url("images/about-shape-1.svg");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 40% 100%;
+        height: 70vh;
+        width: 100%;
+        min-height: 500px;
+    }
+    .about1 {
+        background-image: url("images/about1.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 70vh;
+        width: 100%;
+        min-height: 500px;
+    }
+    .container{
+        width: 70%;
+        margin: auto;
+    }
+    .container2{
+        width: 70%;
+        margin: auto;
+        height: 70vh;
+        min-height: 500px;
+    }
+    .leftSide{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .leftSide h1{
+        font-size: 30px;
+        width: 80%;
+        margin-bottom: 0;
+    }
+    .leftSide p{
+        font-size: 18px;
+        color: #6A6971;
+        width: 80%;
+    }
+    .rightSide{
+        width: 50%;
+    }
+    .link{
+        display: inline-block;
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        width: fit-content;
+
+        background: linear-gradient(to right,#FF8463,#FD6E97);
+        border: none;
+        border-radius: 10px;
+        padding: 12px 30px;
+        cursor: pointer;
+      
+    }
+
+
+
+    .fifthBlock{
+        background-image: url("images/about-shape-2.svg");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 40% 100%;
+        height: 70vh;
+        width: 100%;
+        min-height: 500px;
+    }
+    .about2 {
+        background-image: url("images/about2.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 70vh;
+        width: 100%;
+        min-height: 500px;
+    }
+    .leftSide5 {
+        width: 50%;
+    }
+    .rightSide5 h1{
+        font-size: 30px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .rightSide5 p{
+        font-size: 18px;
+        color: #6A6971;
+        width: 100%;
+    }
+    .rightSide5 {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+    }
+
+
+
+
+
+    .sixthBlock {
+        background-image: url("images/about-shape-1.svg");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 40% 100%;
+        height: 70vh;
+        width: 100%;
+        min-height: 500px;
+    }
+    .about3 {
+        background-image: url("images/about3.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 70vh;
+        width: 100%;
+        min-height: 500px;
+    }
+
+
+
+
+
+
+    .seventhBlock{
+        background-image: url("images/dots.svg");
+        background-repeat: no-repeat;
+        background-position: 16% 50%;
+        background-size: 20% 60%;
+        height: 50vh;
+        width: 100%;
+        min-height: 450px;
+    }
+    .about4 {
+        background-image: url("images/video.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 330px;
+        width: 380px;
+        min-height: 330px;
+    }
+    .leftSide7{
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .rightSide7 h1{
+        font-size: xx-large;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .rightSide7 p{
+        font-size: 20px;
+        color: #6A6971;
+        width: 100%;
+    }
+    .rightSide7 {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 70px;
+    }
+    .container3{
+        width: 70%;
+        margin: auto;
+        height: 50vh;
+        min-height: 450px;
+    }
+
+
+    .card2 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        min-width: 300px;
+        min-height: 350px;
+    }
+
+    .eightBlock{
+        height: 70vh;
+        width: 100%;
+    }
+    .team1{
+        background-image: url("images/team-1.png");
+        background-size: 100% 100%;
+        width: 100%;
+        height: 250px;
+    }
+    .team2{
+        background-image: url("images/team-2.png");
+        background-size: 100% 100%;
+        width: 100%;
+        height: 250px;
+    }
+    .team3{
+        background-image: url("images/team-3.png");
+        background-size: 100% 100%;
+        width: 100%;
+        height: 250px;
+    }
+    .cardtxt h1{
+        font-size: 25px;
+    }
+    .cardtxt p{
+        font-size: 18px;
+        color: #6A6971;
+    }
+    .inline {
+        width: 40%;
+        text-align: center;
+    }
+    .flex-center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .oval {
+        margin: auto;
+        width: 200px;
+        height: 50px;
+        background: lightgray;
+        opacity: 35%;
+        /* background: linear-gradient(to bottom right, #31C6C0, #139DD0); */
+        border-radius: 100px / 90px;
+        border: solid black 2px;
+    }
+    .icons {
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        font-size: 25px;
+    }
+    .icons a{
+        color: white;
+        opacity: 100%;
+    }
+
+
+    .ninthBlock{ 
+
+        height: 100vh;
+        width: 100%;
+    }
+
+    .card3 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: left;
+        min-width: 300px;
+        min-height: 350px;
+        padding: 20px;
+    }
+
+    .ratings{
+        display: flex;
+        justify-content: space-between;
+    }
+    .quotations{
+        font-size: 35px;
+        color: #23A0D4;
+    }
+    .stars{
+        font-size: 20px;
+        color: #FF806C;
+    }
+    .cardtext p{
+        font-size: 18px;
+        color: #6A6971;
+    }
+    .raters{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .lfts{
+        background-image: url("images/author-1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100px;
+        width: 100px;
+        background-position: center;
+        /* margin: auto; */
+    }
+    .rights{
+        margin: 0;
+        padding: 0;
+    }
+}
