@@ -35,10 +35,12 @@ Good luck!
 
 ### Wireframe references:
 [Wireframe Desktop reference pdf](Wireframe-01/wireframe01-mobile.pdf)
+
 [Wireframe Mobile reference pdf](Wireframe-01/wireframe01.pdf)
 
 ## Finished Result
 [Wireframe](Wireframe-01/Wireframe.pdf)
+
 To run it on your machine, start by cloning the repo with:
 ```bash
 git clone git@github.com:DijiOfficial/FullStack-Task-Manager-With-sqlite3.git
