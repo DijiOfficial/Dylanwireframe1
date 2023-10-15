@@ -43,6 +43,6 @@ Good luck!
 
 To run it on your machine, start by cloning the repo with:
 ```bash
-git clone git@github.com:DijiOfficial/FullStack-Task-Manager-With-sqlite3.git
+git clone git@github.com:DijiOfficial/Dylanwireframe1.git
 ```
 Open the the file in Visual Studio Code or any IDE that supports Live Code features and press the "Go Live" button ont index.html to start a local server. Alternatively create a local server using node.js or other alternatives.
